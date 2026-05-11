@@ -15,7 +15,7 @@
 - 💻 简洁界面：轻量Web交互，支持文档管理与问答
 - 🚀 一键部署：Docker + docker-compose快速部署
 技术栈
-- 后端：Spring Boot 3（JDK 21）
+- 后端：Spring Boot 4（JDK 21）
 - AI：智谱AI GLM-4 API
 - 向量数据库：ChromaDB
 - 部署：Docker
