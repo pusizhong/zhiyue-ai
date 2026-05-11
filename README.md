@@ -1,22 +1,33 @@
 # 智阅 (ZhiYue) - 智能文档问答系统
-
-**愿景：让每个人都能像对话一样，轻松获取个人文档库中的知识。**
-
-## 🚀 核心功能规划
-- [ ] 文档上传（PDF/Word/TXT）
-- [ ] 基于大模型的智能摘要与问答
-- [ ] 精准的向量检索
-- [ ] 简洁的Web界面
-
-## 🛠 技术栈
-- **后端**：Spring Boot 3
-- **AI**：智谱AI GLM-4 API
-- **向量数据库**：ChromaDB
-- **部署**：Docker
-
-## 📅 项目启动
-- [x] 2026-05-10：项目仓库初始化。
-- [ ] 下周：完成Spring Boot基础框架与文件上传接口。
-
----
-*这是通往“亿万之路”的第一个物理坐标。*
+项目介绍
+智阅（ZhiYue）是基于大模型的智能文档问答系统，支持PDF、Word、TXT文档上传，通过向量检索与AI生成技术，实现文档问答及智能摘要功能。
+环境要求
+- 开发工具：IntelliJ IDEA 2025.2.5
+- JDK版本：Java JDK 21
+- Maven：3.8+（IDEA自带）
+- Docker：部署ChromaDB及项目打包
+核心功能
+- 📤 文档上传：支持PDF、Word（.docx）、TXT格式
+- 📝 文档解析：自动解析文本并完成清洗、标准化
+- 🔍 向量检索：基于ChromaDB实现文本分块、向量化及相似度检索
+- 🤖 智能问答：调用智谱AI GLM-4 API，基于文档精准回答
+- 📊 文档摘要：自动提取文档核心要点
+- 💻 简洁界面：轻量Web交互，支持文档管理与问答
+- 🚀 一键部署：Docker + docker-compose快速部署
+技术栈
+模块
+技术选型
+后端框架
+Spring Boot 3
+AI服务
+智谱AI GLM-4 + Embedding接口
+向量数据库
+ChromaDB
+前端技术
+Vue3 / 原生HTML+JS
+部署工具
+Docker、docker-compose
+文档解析
+PDFBox、Apache POI
+工具类
+Hutool、Lombok
