@@ -1,10 +1,10 @@
-# 智阅 (ZhiYue) - 智能文档问答系统
+# 智阅 (ZhiYue-AI) - 智能文档问答系统
 项目介绍
-智阅（ZhiYue）是基于大模型的智能文档问答系统，支持PDF、Word、TXT文档上传，通过向量检索与AI生成技术，实现文档问答及智能摘要功能。
+智阅（ZhiYue-AI）是基于大模型的智能文档问答系统，支持PDF、Word、TXT文档上传，通过向量检索与AI生成技术，实现文档问答及智能摘要功能。
 环境要求
 - 开发工具：IntelliJ IDEA 2025.2.5
 - JDK版本：Java JDK 21
-- Maven：3.8+（IDEA自带）
+- Maven：3.8+
 - Docker：部署ChromaDB及项目打包
 核心功能
 - 📤 文档上传：支持PDF、Word（.docx）、TXT格式
