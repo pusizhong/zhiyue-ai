@@ -15,19 +15,8 @@
 - 💻 简洁界面：轻量Web交互，支持文档管理与问答
 - 🚀 一键部署：Docker + docker-compose快速部署
 技术栈
-模块
-技术选型
-后端框架
-Spring Boot 3
-AI服务
-智谱AI GLM-4 + Embedding接口
-向量数据库
-ChromaDB
-前端技术
-Vue3 / 原生HTML+JS
-部署工具
-Docker、docker-compose
-文档解析
-PDFBox、Apache POI
-工具类
-Hutool、Lombok
+- 后端：Spring Boot 3（JDK 21）
+- AI：智谱AI GLM-4 API
+- 向量数据库：ChromaDB
+- 部署：Docker
+- 开发工具：IntelliJ IDEA 2025.2.5
